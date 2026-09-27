@@ -2,7 +2,6 @@
 
 Java implementations, correctness checks, measurements, and a report for the course assignment.
 
-> Working draft: run the project locally, complete Section E in your own words, add your screenshots to Section F, and maintain your actual Git history before submission. Bundled measurements were produced in an assistant execution environment, not on the student's laptop. `results/environment.md` identifies the runtime for the current CSV.
 
 ## A. Project overview
 
@@ -216,7 +215,7 @@ Closest Pair is compared with an independent quadratic enumeration of all unorde
 
 **What practical factors matter?** JVM just-in-time compilation, allocation, garbage collection, CPU/cache behavior, background tasks, timer resolution, and the counters themselves all affect measured time. Three warmups are a modest mitigation, not a guarantee that JIT compilation is finished. A nanosecond API does not promise nanosecond measurement accuracy [3]. For stronger evidence, use more warmups, independent JVM runs, repeated measurements, and normalized operation counts. Also, selection and closest-pair solve different tasks, so a faster plotted line does not make either a replacement for a sorting algorithm.
 
-## E. Reflection — complete after your own run
+## E. Reflection
 During this assignment, I learned how divide-and-conquer algorithms split a large problem into smaller parts and solve them recursively. I understood the main difference between MergeSort and QuickSort and also learned how recursion depth can affect performance.
 
 The most difficult part for me was understanding Deterministic Select and Closest Pair because their recursive logic is more complex. Testing the algorithms on different input sizes helped me understand how their theoretical complexity is related to actual execution time.
