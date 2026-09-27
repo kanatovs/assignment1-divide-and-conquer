@@ -145,43 +145,43 @@ Depth means nested algorithm-recursion frames: the initial frame is 1, and no re
 
 | Algorithm | Input | n | Median ms | Max depth | Median comparisons |
 |---|---|---:|---:|---:|---:|
-| ClosestPair | random | 100 | 0.196791 | 7 | 1873 |
-| ClosestPair | random | 1000 | 0.636793 | 10 | 30483 |
-| ClosestPair | random | 10000 | 6.368510 | 13 | 413979 |
-| ClosestPair | random | 100000 | 51.538027 | 17 | 5204619 |
-| DeterministicSelect | random | 100 | 0.023294 | 6 | 641 |
-| DeterministicSelect | random | 1000 | 0.037686 | 9 | 7702 |
-| DeterministicSelect | random | 10000 | 0.475725 | 12 | 81840 |
-| DeterministicSelect | random | 100000 | 3.458812 | 16 | 832945 |
-| MergeSort | random | 100 | 0.030105 | 4 | 651 |
-| MergeSort | random | 1000 | 0.088941 | 7 | 10348 |
-| MergeSort | random | 10000 | 0.618737 | 10 | 143492 |
-| MergeSort | random | 100000 | 7.679271 | 14 | 1764910 |
-| QuickSort | random | 100 | 0.084475 | 4 | 707 |
-| QuickSort | random | 1000 | 0.088892 | 6 | 11848 |
-| QuickSort | random | 10000 | 0.846213 | 9 | 165711 |
-| QuickSort | random | 100000 | 9.679324 | 12 | 2036448 |
+| ClosestPair | random | 100 | 0.088700 | 7 | 1873 |
+| ClosestPair | random | 1000 | 0.855300 | 10 | 30483 |
+| ClosestPair | random | 10000 | 5.699900 | 13 | 413979 |
+| ClosestPair | random | 100000 | 46.658900 | 17 | 5204619 |
+| DeterministicSelect | random | 100 | 0.010600 | 6 | 641 |
+| DeterministicSelect | random | 1000 | 0.030500 | 9 | 7702 |
+| DeterministicSelect | random | 10000 | 0.402200 | 12 | 81840 |
+| DeterministicSelect | random | 100000 | 2.946300 | 16 | 832945 |
+| MergeSort | random | 100 | 0.013700 | 4 | 651 |
+| MergeSort | random | 1000 | 0.069200 | 7 | 10348 |
+| MergeSort | random | 10000 | 0.512100 | 10 | 143492 |
+| MergeSort | random | 100000 | 6.099500 | 14 | 1764910 |
+| QuickSort | random | 100 | 0.034900 | 4 | 707 |
+| QuickSort | random | 1000 | 0.067900 | 6 | 11848 |
+| QuickSort | random | 10000 | 0.741700 | 9 | 165711 |
+| QuickSort | random | 100000 | 8.336600 | 12 | 2036448 |
 
 ### Input-structure comparison: n = 100,000
 
 | Algorithm | Input | n | Median ms | Max depth | Median comparisons |
 |---|---|---:|---:|---:|---:|
-| ClosestPair | duplicates | 100000 | 27.158437 | 17 | 4992547 |
-| ClosestPair | random | 100000 | 51.538027 | 17 | 5204619 |
-| ClosestPair | reverse | 100000 | 29.651628 | 17 | 3769812 |
-| ClosestPair | sorted | 100000 | 30.785487 | 17 | 3769812 |
-| DeterministicSelect | duplicates | 100000 | 1.457288 | 9 | 308092 |
-| DeterministicSelect | random | 100000 | 3.458812 | 16 | 832945 |
-| DeterministicSelect | reverse | 100000 | 2.000612 | 16 | 851693 |
-| DeterministicSelect | sorted | 100000 | 1.557877 | 16 | 597926 |
-| MergeSort | duplicates | 100000 | 3.898472 | 14 | 1644608 |
-| MergeSort | random | 100000 | 7.679271 | 14 | 1764910 |
-| MergeSort | reverse | 100000 | 2.600501 | 14 | 1525616 |
-| MergeSort | sorted | 100000 | 1.800847 | 14 | 717616 |
-| QuickSort | duplicates | 100000 | 1.459401 | 3 | 324696 |
-| QuickSort | random | 100000 | 9.679324 | 12 | 2036448 |
-| QuickSort | reverse | 100000 | 5.774601 | 11 | 2086971 |
-| QuickSort | sorted | 100000 | 6.100774 | 11 | 2055346 |
+| ClosestPair | duplicates | 100000 | 36.727600 | 17 | 4992547 |
+| ClosestPair | random | 100000 | 46.658900 | 17 | 5204619 |
+| ClosestPair | reverse | 100000 | 23.561600 | 17 | 3769812 |
+| ClosestPair | sorted | 100000 | 23.240000 | 17 | 3769812 |
+| DeterministicSelect | duplicates | 100000 | 1.268200 | 9 | 308092 |
+| DeterministicSelect | random | 100000 | 2.946300 | 16 | 832945 |
+| DeterministicSelect | reverse | 100000 | 1.484900 | 16 | 851693 |
+| DeterministicSelect | sorted | 100000 | 1.085600 | 16 | 597926 |
+| MergeSort | duplicates | 100000 | 3.291800 | 14 | 1644608 |
+| MergeSort | random | 100000 | 6.099500 | 14 | 1764910 |
+| MergeSort | reverse | 100000 | 2.604700 | 14 | 1525616 |
+| MergeSort | sorted | 100000 | 1.475200 | 14 | 717616 |
+| QuickSort | duplicates | 100000 | 1.036800 | 3 | 324696 |
+| QuickSort | random | 100000 | 8.336600 | 12 | 2036448 |
+| QuickSort | reverse | 100000 | 4.247300 | 11 | 2086971 |
+| QuickSort | sorted | 100000 | 4.215200 | 11 | 2055346 |
 
 All 64 size/type/algorithm summaries are in [results/summary.md](results/summary.md). Raw data: [results.csv](results/results.csv). Runtime: [environment.md](results/environment.md).
 <!-- RESULTS_END -->
@@ -217,27 +217,24 @@ Closest Pair is compared with an independent quadratic enumeration of all unorde
 **What practical factors matter?** JVM just-in-time compilation, allocation, garbage collection, CPU/cache behavior, background tasks, timer resolution, and the counters themselves all affect measured time. Three warmups are a modest mitigation, not a guarantee that JIT compilation is finished. A nanosecond API does not promise nanosecond measurement accuracy [3]. For stronger evidence, use more warmups, independent JVM runs, repeated measurements, and normalized operation counts. Also, selection and closest-pair solve different tasks, so a faster plotted line does not make either a replacement for a sorting algorithm.
 
 ## E. Reflection — complete after your own run
+During this assignment, I learned how divide-and-conquer algorithms split a large problem into smaller parts and solve them recursively. I understood the main difference between MergeSort and QuickSort and also learned how recursion depth can affect performance.
 
-Replace this section with 1–2 personal paragraphs. Explain one thing you understood from running or changing the code, name a real challenge, and describe how you checked it. Useful topics are the QuickSort loop versus recursion, zero-based selection ranks, moving medians within one array, or maintaining y order in Closest Pair. Do not claim you encountered or solved a problem that you did not actually work through.
+The most difficult part for me was understanding Deterministic Select and Closest Pair because their recursive logic is more complex. Testing the algorithms on different input sizes helped me understand how their theoretical complexity is related to actual execution time.
+## F. Screenshots
 
-## F. Screenshots — add your own evidence
+### Program Output
 
-Save clear screenshots from your local run as:
+![Program Output](docs/screenshots/program-output.png)
 
-`docs/screenshots/program-output.png` — the `demo` command.
+### Test Results
 
-`docs/screenshots/test-results.png` — `ALL TESTS PASSED` and the preceding checks.
+![Test Results](docs/screenshots/test-results.png)
 
-`docs/screenshots/plots-results.png` — a readable plot or the result table.
+### Experimental Results
 
-After saving them, uncomment the image lines below. Text logs and generated plot files are included, but they are not presented as screenshots of the student's computer.
+![Time vs n](docs/plots/time-vs-n.png)
 
-<!--
-![Program output](docs/screenshots/program-output.png)
-![Test results](docs/screenshots/test-results.png)
-![Plots/results](docs/screenshots/plots-results.png)
--->
-
+![Recursion depth vs n](docs/plots/depth-vs-n.png)
 ## References
 
 [1] Course handout. *Assignment 1: Divide-and-Conquer Algorithm Analysis*, pp. 1–4. Requirements and grading rubric supplied with the assignment.
