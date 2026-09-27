@@ -63,7 +63,6 @@ assignment1-divide-and-conquer/
   docs/
     screenshots/
     plots/
-    DEFENCE_RU.md
   results/
     results.csv
     summary.md
