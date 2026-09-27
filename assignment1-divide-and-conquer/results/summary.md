@@ -1,0 +1,70 @@
+# All experimental summaries
+
+Median of five times; maximum recorded depth; median comparisons.
+
+| Algorithm | Input | n | Median ms | Max depth | Median comparisons |
+|---|---|---:|---:|---:|---:|
+| ClosestPair | duplicates | 100 | 0.107059 | 7 | 2114 |
+| ClosestPair | duplicates | 1000 | 0.758694 | 10 | 34142 |
+| ClosestPair | duplicates | 10000 | 4.462418 | 13 | 427220 |
+| ClosestPair | duplicates | 100000 | 27.158437 | 17 | 4992547 |
+| ClosestPair | random | 100 | 0.196791 | 7 | 1873 |
+| ClosestPair | random | 1000 | 0.636793 | 10 | 30483 |
+| ClosestPair | random | 10000 | 6.368510 | 13 | 413979 |
+| ClosestPair | random | 100000 | 51.538027 | 17 | 5204619 |
+| ClosestPair | reverse | 100 | 0.050635 | 7 | 1438 |
+| ClosestPair | reverse | 1000 | 0.212775 | 10 | 22811 |
+| ClosestPair | reverse | 10000 | 2.233257 | 13 | 303583 |
+| ClosestPair | reverse | 100000 | 29.651628 | 17 | 3769812 |
+| ClosestPair | sorted | 100 | 0.033109 | 7 | 1438 |
+| ClosestPair | sorted | 1000 | 1.294677 | 10 | 22811 |
+| ClosestPair | sorted | 10000 | 2.451129 | 13 | 303583 |
+| ClosestPair | sorted | 100000 | 30.785487 | 17 | 3769812 |
+| DeterministicSelect | duplicates | 100 | 0.009264 | 4 | 308 |
+| DeterministicSelect | duplicates | 1000 | 0.018617 | 5 | 3071 |
+| DeterministicSelect | duplicates | 10000 | 0.191474 | 8 | 30665 |
+| DeterministicSelect | duplicates | 100000 | 1.457288 | 9 | 308092 |
+| DeterministicSelect | random | 100 | 0.023294 | 6 | 641 |
+| DeterministicSelect | random | 1000 | 0.037686 | 9 | 7702 |
+| DeterministicSelect | random | 10000 | 0.475725 | 12 | 81840 |
+| DeterministicSelect | random | 100000 | 3.458812 | 16 | 832945 |
+| DeterministicSelect | reverse | 100 | 0.016635 | 5 | 650 |
+| DeterministicSelect | reverse | 1000 | 0.025288 | 9 | 7793 |
+| DeterministicSelect | reverse | 10000 | 0.213757 | 12 | 83617 |
+| DeterministicSelect | reverse | 100000 | 2.000612 | 16 | 851693 |
+| DeterministicSelect | sorted | 100 | 0.034170 | 6 | 505 |
+| DeterministicSelect | sorted | 1000 | 0.019008 | 8 | 5528 |
+| DeterministicSelect | sorted | 10000 | 0.158214 | 12 | 58488 |
+| DeterministicSelect | sorted | 100000 | 1.557877 | 16 | 597926 |
+| MergeSort | duplicates | 100 | 0.025147 | 4 | 615 |
+| MergeSort | duplicates | 1000 | 0.048742 | 7 | 9702 |
+| MergeSort | duplicates | 10000 | 0.533349 | 10 | 133173 |
+| MergeSort | duplicates | 100000 | 3.898472 | 14 | 1644608 |
+| MergeSort | random | 100 | 0.030105 | 4 | 651 |
+| MergeSort | random | 1000 | 0.088941 | 7 | 10348 |
+| MergeSort | random | 10000 | 0.618737 | 10 | 143492 |
+| MergeSort | random | 100000 | 7.679271 | 14 | 1764910 |
+| MergeSort | reverse | 100 | 0.025118 | 4 | 724 |
+| MergeSort | reverse | 1000 | 0.028021 | 7 | 10300 |
+| MergeSort | reverse | 10000 | 0.240487 | 10 | 137568 |
+| MergeSort | reverse | 100000 | 2.600501 | 14 | 1525616 |
+| MergeSort | sorted | 100 | 0.016124 | 4 | 244 |
+| MergeSort | sorted | 1000 | 0.019208 | 7 | 3956 |
+| MergeSort | sorted | 10000 | 0.128690 | 10 | 54640 |
+| MergeSort | sorted | 100000 | 1.800847 | 14 | 717616 |
+| QuickSort | duplicates | 100 | 0.006389 | 3 | 288 |
+| QuickSort | duplicates | 1000 | 0.015773 | 3 | 2765 |
+| QuickSort | duplicates | 10000 | 0.181889 | 2 | 28775 |
+| QuickSort | duplicates | 100000 | 1.459401 | 3 | 324696 |
+| QuickSort | random | 100 | 0.084475 | 4 | 707 |
+| QuickSort | random | 1000 | 0.088892 | 6 | 11848 |
+| QuickSort | random | 10000 | 0.846213 | 9 | 165711 |
+| QuickSort | random | 100000 | 9.679324 | 12 | 2036448 |
+| QuickSort | reverse | 100 | 0.016565 | 4 | 714 |
+| QuickSort | reverse | 1000 | 0.064956 | 6 | 11430 |
+| QuickSort | reverse | 10000 | 0.531407 | 10 | 171007 |
+| QuickSort | reverse | 100000 | 5.774601 | 11 | 2086971 |
+| QuickSort | sorted | 100 | 0.029794 | 4 | 700 |
+| QuickSort | sorted | 1000 | 0.046899 | 6 | 11351 |
+| QuickSort | sorted | 10000 | 0.517827 | 10 | 162449 |
+| QuickSort | sorted | 100000 | 6.100774 | 11 | 2055346 |

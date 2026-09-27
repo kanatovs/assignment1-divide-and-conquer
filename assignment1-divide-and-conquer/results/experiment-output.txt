@@ -1,0 +1,18 @@
+EXPERIMENTS: 4 algorithms, 4 input types, 4 sizes, 5 measured trials
+PASS experiments | n=100    | input=random
+PASS experiments | n=100    | input=sorted
+PASS experiments | n=100    | input=reverse
+PASS experiments | n=100    | input=duplicates
+PASS experiments | n=1000   | input=random
+PASS experiments | n=1000   | input=sorted
+PASS experiments | n=1000   | input=reverse
+PASS experiments | n=1000   | input=duplicates
+PASS experiments | n=10000  | input=random
+PASS experiments | n=10000  | input=sorted
+PASS experiments | n=10000  | input=reverse
+PASS experiments | n=10000  | input=duplicates
+PASS experiments | n=100000 | input=random
+PASS experiments | n=100000 | input=sorted
+PASS experiments | n=100000 | input=reverse
+PASS experiments | n=100000 | input=duplicates
+Saved results/results.csv: 320 measured rows; warmups excluded.

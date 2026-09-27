@@ -1,0 +1,7 @@
+DIVIDE-AND-CONQUER CORRECTNESS TESTS
+Reference methods: Arrays.sort and quadratic closest-pair search
+PASS sorting: empty, singleton, cutoff boundaries, all types, 300 random cases, large arrays
+PASS selection: 500 random datasets x 4 ranks; all ranks for n=1..70; integer extremes
+PASS closest pair: 200 random small datasets, all types at n=2000, duplicates, tied x/y, cross-strip, n=100000 smoke
+PASS validation and metrics: invalid k/null/NaN/infinity, reset, all-equal quicksort depth
+ALL TESTS PASSED | checks=6593

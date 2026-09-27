@@ -1,0 +1,11 @@
+DIVIDE-AND-CONQUER DEMO
+Input: [9, 3, 7, 3, 1, 8, 2]
+MergeSort: [1, 2, 3, 3, 7, 8, 9]
+  comparisons=18, maxDepth=1
+QuickSort: [1, 2, 3, 3, 7, 8, 9]
+  comparisons=12, maxDepth=2
+DeterministicSelect: k=3 (4th smallest), value=3
+  comparisons=19, maxDepth=2
+ClosestPair: Point[x=0.0, y=0.0] and Point[x=1.0, y=1.0]
+  distance=1.4142135623730951, maxDepth=2
+  distance evaluations=2
