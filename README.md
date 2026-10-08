@@ -77,6 +77,10 @@ assignment1-divide-and-conquer/
   run.sh
 ```
 
+## Continuous checks
+
+GitHub Actions runs the correctness suite with JDK 17 on Linux and Windows for every push and pull request. Both scripts fail the process if compilation or the tests fail; the test log is uploaded as an artifact. Locally, use the same JDK version for both `javac` and `java` (check `javac -version` and `java -version`).
+
 ## B. Algorithm analysis
 
 `n` is the number of integers or points. Auxiliary space excludes the caller's input. The following recurrences analyze the implemented algorithmic work; rounded subproblem sizes do not change the asymptotic bounds. The assignment is the source of the required algorithms and features [1].

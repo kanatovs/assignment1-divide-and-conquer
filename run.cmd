@@ -11,13 +11,14 @@ javac --release 17 -encoding UTF-8 -d out src\*.java tests\*.java
 if errorlevel 1 exit /b 1
 set "TASK=%~1"
 if "%TASK%"=="" set "TASK=all"
-if /I "%TASK%"=="test" (
-	java -Djava.awt.headless=true -cp out AllTests
-	exit /b
-)
+if /I "%TASK%"=="test" goto run_tests
 if /I "%TASK%"=="all" (
 	java -Djava.awt.headless=true -cp out AllTests
 	if errorlevel 1 exit /b 1
 )
 java -Djava.awt.headless=true -cp out Main %TASK%
-exit /b
+exit /b %errorlevel%
+
+:run_tests
+java -Djava.awt.headless=true -cp out AllTests
+exit /b %errorlevel%
